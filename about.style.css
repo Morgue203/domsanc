@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand-logo{
+    width: 60px;
+    position: relative;}
+.logo{
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    pointer-events: none;
+    position: relative;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: rgb(59, 57, 57);
+    font-size: 16px;
+    font-weight: bold;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.background-color{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+}
+.bg-1{
+    flex: 1;
+    background-color: #06aa66;
+}
+.bg-2{
+    flex: 1;
+    background-color: #C9B38C;
+}
+.about-container{
+    width: 85%;
+    min-height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 24px 24px 30px #9A9D84;
+}
+.img-container{
+    flex: 1;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+.img-container img{
+    width: 650px;
+    height: 500px;
+}
+.text-container{
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-container h1{
+    font-size: 50px;
+    padding: 10px 0;
+
+}
+.text-container p{
+    font-size: 22px;
+    padding: 10px 0;
+    
+}
+.text-container a{
+    text-decoration: none;
+    padding: 12px;
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    background-color: #017143;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    
+}
+.text-container a:hover{
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #017143;
+}
+
